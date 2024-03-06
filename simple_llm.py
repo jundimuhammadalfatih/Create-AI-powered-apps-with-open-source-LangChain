@@ -3,7 +3,7 @@ from langchain_openai import ChatOpenAI
 import gradio as gr
 
 # Memasukkan API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "OPENAI API KEY"
 
 gpt3 = ChatOpenAI(model_name="gpt-3.5-turbo" )
 
